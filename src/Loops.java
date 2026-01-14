@@ -5,10 +5,13 @@ public class Loops {
 
     public Loops(){
 
+        countUp();
+        countByThrees();
+        countDown();
         nestedLoop();
     }
 
-    public void countUP(){
+    public void countUp(){
         for(int i=1; i < 6; i++){
             System.out.println(i);
         }
